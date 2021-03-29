@@ -1,0 +1,36 @@
+{
+  "name": "node-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "server-dev": "nodemon server/index.js",
+    "client-dev": "npm start --prefix ../client",
+    "db": "node db/setup-user.js",
+    "test": "snyk test"
+  },
+  "author": "Daniel",
+  "license": "dmso",
+  "dependencies": {
+    "@hapi/joi": "^17.1.0",
+    "aws-sdk": "^2.574.0",
+    "axios": "^0.21.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "express-promise-router": "^3.0.3",
+    "jsonwebtoken": "^8.4.0",
+    "lodash": "^4.17.21",
+    "moment": "^2.27.0",
+    "mongoose": "^5.9.21",
+    "morgan": "^1.10.0",
+    "node-mailjet": "^3.3.1",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  }
+}

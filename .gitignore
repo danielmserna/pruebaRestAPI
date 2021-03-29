@@ -1,0 +1,6 @@
+/node_modules
+/app.js
+/index.js
+/private.pem
+/public.pem
+/.env
