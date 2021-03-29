@@ -207,8 +207,8 @@ module.exports = {
 				lan +
 				"&distance=1&fullmenu=false&size=10&page=1",
 			headers: {
-				"x-api-key": "3e49dd1bd55faa9a74bea3b58031870b",
-				"x-rapidapi-key": "acb42b1b3bmsh22cff0eee3fc650p11a8f7jsnf44fe5d310d3",
+				"x-api-key": "",
+				"x-rapidapi-key": "",
 				"x-rapidapi-host": "documenu.p.rapidapi.com",
 				"Content-Type": "application/x-www-form-urlencoded",
 			},
