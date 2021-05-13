@@ -28,11 +28,6 @@ app.use(fileUpload({
     createParentPath: true
 }));
 
-
-
 app.use("/user", require("./routes/user"));
-app.use("/request", require("./routes/request"));
-app.use("/chat", require("./routes/chatRoutes"));
-
 
 module.exports = app;
